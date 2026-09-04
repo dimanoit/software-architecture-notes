@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Knowledge pyramid</title>
+  <desc id="desc">The three layers are stuff you know, stuff you know you do not know, and stuff you do not know you do not know.</desc>
+  <style>.h{font:700 29px system-ui,sans-serif;fill:#17202a}.t{font:700 20px system-ui,sans-serif;fill:#17202a}.s{font:500 16px system-ui,sans-serif;fill:#334155}.shape{stroke:#17202a;stroke-width:3}</style>
+  <rect width="800" height="600" fill="#fff"/><text class="h" x="400" y="42" text-anchor="middle">Knowledge Pyramid</text>
+  <polygon class="shape" points="400,75 512,255 288,255" fill="#cce9d9"/>
+  <polygon class="shape" points="288,255 512,255 599,395 201,395" fill="#ffd81a"/>
+  <polygon class="shape" points="201,395 599,395 680,525 120,525" fill="#dc8589"/>
+  <text class="t" x="400" y="215" text-anchor="middle">Stuff you know</text><text class="s" x="400" y="239" text-anchor="middle">глибока expertise</text>
+  <text class="t" x="400" y="330" text-anchor="middle">Stuff you know you don't know</text><text class="s" x="400" y="357" text-anchor="middle">awareness без expertise</text>
+  <text class="t" x="400" y="465" text-anchor="middle">Stuff you don't know you don't know</text><text class="s" x="400" y="493" text-anchor="middle">невідомі можливості</text>
+</svg>

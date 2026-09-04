@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 570" role="img" aria-labelledby="title desc">
+  <title id="title">Four dimensions of software architecture</title>
+  <desc id="desc">A structure supported by architectural characteristics, logical components, architectural decisions, and architectural style.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#17202a"/></marker>
+    <style>
+      .label{font:700 24px system-ui,sans-serif;fill:#17202a}.sub{font:500 15px system-ui,sans-serif;fill:#475569}.code{font:700 25px ui-monospace,monospace;fill:#17202a}.browser{fill:#fff;stroke:#17202a;stroke-width:3}.frame{fill:#8b8f94}.line{stroke:#17202a;stroke-width:3;marker-start:url(#arrow);marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="900" height="570" fill="#fff"/>
+  <line class="line" x1="165" y1="48" x2="735" y2="48"/><text class="label" x="450" y="39" text-anchor="middle">Architecture characteristics</text><text class="sub" x="450" y="68" text-anchor="middle">системні якості</text>
+  <line class="line" x1="165" y1="523" x2="735" y2="523"/><text class="label" x="450" y="554" text-anchor="middle">Logical components</text>
+  <line class="line" x1="88" y1="91" x2="88" y2="480"/><text class="label" transform="translate(57 286) rotate(-90)" text-anchor="middle">Architecture decisions</text>
+  <line class="line" x1="812" y1="91" x2="812" y2="480"/><text class="label" transform="translate(845 286) rotate(-90)" text-anchor="middle">Architecture style</text>
+  <rect class="frame" x="128" y="83" width="25" height="408" rx="2"/><rect class="frame" x="747" y="83" width="25" height="408" rx="2"/>
+  <rect class="frame" x="128" y="407" width="644" height="26"/><rect class="frame" x="260" y="430" width="25" height="70"/><rect class="frame" x="438" y="430" width="25" height="70"/><rect class="frame" x="616" y="430" width="25" height="70"/>
+  <g>
+    <g transform="translate(185 105)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(330 105)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(475 105)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(620 105)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(185 205)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(330 205)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(475 205)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(620 205)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(185 305)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(330 305)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(475 305)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+    <g transform="translate(620 305)"><rect class="browser" width="92" height="61" rx="5"/><path d="M0 15H92" stroke="#17202a" stroke-width="3"/><circle cx="80" cy="8" r="3" fill="#17202a"/><text class="code" x="46" y="49" text-anchor="middle">&lt;/&gt;</text></g>
+  </g>
+</svg>

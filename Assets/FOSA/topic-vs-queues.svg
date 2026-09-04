@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+  <title id="title">Topic versus queues</title>
+  <desc id="desc">A bid producer publishes once to a topic with several subscribers, or sends to three separate queues and consumers.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#17202a"/></marker><style>.h{font:700 27px system-ui,sans-serif;fill:#17202a}.t{font:600 20px system-ui,sans-serif;fill:#17202a}.s{font:500 17px system-ui,sans-serif;fill:#475569}.box{fill:#b8dcee;stroke:#17202a;stroke-width:3}.wire{fill:none;stroke:#17202a;stroke-width:3;marker-end:url(#arrow)}.panel{fill:#fff;stroke:#9ca3af;stroke-width:2}.pill{fill:#078dcc;stroke:#17202a;stroke-width:3}</style></defs>
+  <rect width="1000" height="760" fill="#fff"/>
+  <text class="h" x="500" y="40" text-anchor="middle">Topic vs Queues</text>
+  <rect class="panel" x="35" y="65" width="930" height="285"/><text class="h" x="70" y="103">Publish-subscribe: Topic</text>
+  <rect class="box" x="100" y="180" width="160" height="70" rx="9"/><text class="t" x="180" y="223" text-anchor="middle">Bid Producer</text>
+  <path class="wire" d="M260 215H425"/><rect class="pill" x="430" y="196" width="130" height="38" rx="19"/><text class="t" x="495" y="274" text-anchor="middle">Topic</text><text class="s" x="495" y="184" text-anchor="middle">Item bid</text>
+  <path class="wire" d="M560 215L720 135"/><path class="wire" d="M560 215H720"/><path class="wire" d="M560 215L720 295"/>
+  <rect class="box" x="725" y="100" width="175" height="60" rx="9"/><rect class="box" x="725" y="185" width="175" height="60" rx="9"/><rect class="box" x="725" y="270" width="175" height="60" rx="9"/>
+  <text class="t" x="812" y="137" text-anchor="middle">Bid Capture</text><text class="t" x="812" y="222" text-anchor="middle">Bid Tracking</text><text class="t" x="812" y="307" text-anchor="middle">Bid Analytics</text>
+  <rect class="panel" x="35" y="385" width="930" height="340"/><text class="h" x="70" y="423">Point-to-point: Queues</text>
+  <rect class="box" x="100" y="525" width="160" height="70" rx="9"/><text class="t" x="180" y="568" text-anchor="middle">Bid Producer</text>
+  <path class="wire" d="M260 560L410 465"/><path class="wire" d="M260 560H410"/><path class="wire" d="M260 560L410 655"/>
+  <rect class="pill" x="415" y="446" width="130" height="38" rx="19"/><rect class="pill" x="415" y="541" width="130" height="38" rx="19"/><rect class="pill" x="415" y="636" width="130" height="38" rx="19"/>
+  <text class="s" x="480" y="438" text-anchor="middle">Item bid</text><text class="s" x="480" y="533" text-anchor="middle">Item bid</text><text class="s" x="480" y="628" text-anchor="middle">Item bid</text>
+  <path class="wire" d="M545 465H720"/><path class="wire" d="M545 560H720"/><path class="wire" d="M545 655H720"/>
+  <rect class="box" x="725" y="435" width="175" height="60" rx="9"/><rect class="box" x="725" y="530" width="175" height="60" rx="9"/><rect class="box" x="725" y="625" width="175" height="60" rx="9"/>
+  <text class="t" x="812" y="472" text-anchor="middle">Bid Capture</text><text class="t" x="812" y="567" text-anchor="middle">Bid Tracking</text><text class="t" x="812" y="662" text-anchor="middle">Bid Analytics</text>
+</svg>

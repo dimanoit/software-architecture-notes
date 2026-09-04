@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 610" role="img" aria-labelledby="title desc">
+  <title id="title">Connascence strength</title>
+  <desc id="desc">A gradient arrow shows refactoring from strong dynamic connascence toward weaker static connascence.</desc>
+  <defs><linearGradient id="grad" gradientUnits="userSpaceOnUse" x1="420" y1="520" x2="160" y2="90"><stop offset="0" stop-color="#d83229"/><stop offset=".48" stop-color="#f29a28"/><stop offset="1" stop-color="#83cfad"/></linearGradient><style>.h{font:700 29px system-ui,sans-serif;fill:#17202a}.t{font:600 22px system-ui,sans-serif;fill:#17202a}.g{font:italic 700 23px system-ui,sans-serif;fill:#17202a}.w{font:700 17px system-ui,sans-serif;fill:#fff}.br{fill:none;stroke:#17202a;stroke-width:3;stroke-dasharray:8 5}</style></defs>
+  <rect width="900" height="610" fill="#fff"/><text class="h" x="450" y="45" text-anchor="middle">Connascence Strength</text>
+  <polygon points="350,530 188,210 145,232 158,78 280,165 235,187 397,507" fill="url(#grad)"/>
+  <text class="w" x="292" y="358" transform="rotate(63 292 358)" text-anchor="middle">Refactor this direction</text>
+  <text class="t" x="330" y="130">Name</text><text class="t" x="350" y="177">Type</text><text class="t" x="372" y="224">Meaning</text><text class="t" x="394" y="271">Algorithm</text><text class="t" x="416" y="318">Position</text><text class="t" x="438" y="365">Execution</text><text class="t" x="460" y="412">Timing</text><text class="t" x="482" y="459">Value</text><text class="t" x="504" y="506">Identity</text>
+  <path class="br" d="M680 103H790V330H680"/><path class="br" d="M680 345H790V535H680"/><text class="g" x="735" y="220" text-anchor="middle">Static</text><text class="g" x="735" y="445" text-anchor="middle">Dynamic</text>
+  <text x="170" y="575" font-family="system-ui,sans-serif" font-size="17" fill="#475569">weaker / easier to refactor</text><text x="520" y="575" font-family="system-ui,sans-serif" font-size="17" fill="#475569">stronger / costlier to change</text>
+</svg>
