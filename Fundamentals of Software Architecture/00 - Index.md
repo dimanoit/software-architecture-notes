@@ -15,6 +15,8 @@ source: "Fundamentals of Software Architecture: An Engineering Approach"
 
 Джерело: [[dokumen_pub_fundamentals_of_software_architecture_a_modern_engineering.pdf]]  
 
+Конспект доповнено навчальними прикладами: вони пояснюють ідеї книги, але не є її цитатами. Англомовні цитати й номери оригінальних figures позначено окремо; числа в розрахунках та прикладах вимог умовні.
+
 ## Навігація
 
 1. [[01 - Introduction|Chapter 1 - Introduction]]
@@ -33,7 +35,7 @@ source: "Fundamentals of Software Architecture: An Engineering Approach"
    - connascence.
 4. [[04 - Glossary and Formulas|Glossary and Formulas]]
    - терміни для повторення;
-   - формули `A`, `I`, `D`;
+   - покрокові розрахунки `A`, `I`, `D` та `LCOM1`;
    - короткий checklist.
 
 ## Загальна картина
@@ -66,6 +68,8 @@ flowchart TB
 Архітектор працює не з універсальними відповідями, а з **context**, **constraints**, альтернативами та наслідками.
 
 ## Рекомендований спосіб вивчення
+
+Для практичного проходу: [[01 - Introduction#Приклад: сервіс продажу квитків|від бізнесу до архітектури]] → [[02 - Architectural Thinking#Приклад: messaging topic vs queues|вибір способу взаємодії]] → [[03 - Modularity#Приклади, за якими легко впізнати connascence|залежності в коді]] → [[04 - Glossary and Formulas#Крайові випадки та коротка вправа|розрахунок метрик самостійно]].
 
 - Прочитай Chapter 1, щоб сформувати ментальну модель ролі.
 - У Chapter 2 тренуй питання: *що ми виграємо і чим платимо?*
